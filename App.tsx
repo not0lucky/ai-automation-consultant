@@ -29,7 +29,7 @@ const INITIAL_FORM: FormData = {
 };
 
 // Updated API Endpoint
-const API_ENDPOINT = 'https://n8n.agramprojectss.xyz/webhook/consultant';
+const API_ENDPOINT = 'N8N_LINK';
 
 export default function App() {
   const [step, setStep] = useState<'form' | 'loading' | 'results'>('form');
